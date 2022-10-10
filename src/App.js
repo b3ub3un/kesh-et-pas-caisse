@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import './styles/App.css';
+import './styles/Header.css';
+import './styles/Body.css';
+
+import Header from './components/Header';
+import Body from './components/Body';
+
+export default function App() {
+
+  const [darkMode, setDarkMode] = React.useState(false);
+
+  function toggleDarkMode() {
+      setDarkMode(prevMode => !prevMode);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header
+        darkMode={darkMode} 
+        toggleDarkMode={toggleDarkMode}
+      />
+      <Body darkMode={darkMode} />
     </div>
   );
 }
-
-export default App;

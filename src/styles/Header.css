@@ -1,0 +1,122 @@
+nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 30px 25px;
+  height: 80px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+nav.dark {
+  background: linear-gradient(90deg, #802d9e 1.18%, #b12ee0 100%);
+}
+
+.nav--logo_icon {
+  width: 70px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.nav--logo_text {
+  color: white;
+  margin-right: auto;
+  font-size: 160%;
+}
+
+nav.dark .nav--logo_text {
+  color: black;
+  margin-right: auto;
+  font-size: 160%;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.toggler--slider {
+  width: 30px;
+  height: 15px;
+  background-color: #F5F5F5;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid white;
+  box-sizing: content-box;
+  -webkit-transition: background-color 0.2s, color 0.2s;
+}
+
+nav.dark .toggler--slider {
+  border-color: black;
+  background-color: #2B283A;
+}
+
+.toggler--slider--circle {
+  height: 100%;
+  width: 50%;
+  background-color: black;
+  border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+  background-color: white;
+}
+
+.toggler--light {
+  color: white;
+}
+
+nav.dark .toggler--light {
+  color: black;
+}
+
+.toggler--dark {
+  color: white;
+}
+
+nav.dark .toggler--dark {
+  color: black;
+}
+
+nav.dark .toggler--slider {
+  justify-content: flex-end;
+}
+
+/* SMALL SCREEN ONLY */
+
+@media screen and (max-width: 750px)
+{
+nav {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  padding: 30px 25px;
+  height: 70px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.nav--logo_text {
+  display: none;
+}
+
+nav.dark .nav--logo_text {
+  display: none;
+}
+
+.nav--logo_icon {
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+  margin-right: auto;
+}
+}

@@ -1,0 +1,79 @@
+main {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+
+main.dark {
+    background-color: #282D35;
+    color: black;
+}
+
+.dwight {
+    width: 33%;
+    padding: 1%;
+    padding-top: 4%;
+}
+
+.canapCita {
+    width: 33%;
+    font-size: 30px;
+    padding: 1%;
+    padding-top: 4%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #711F8D 1.14%, #A818DA 100%);
+    color: #fdb928;
+    border: none;
+    font-size: 30px;
+    width: 80%;
+    position: relative;
+    align-self: center;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+button:active {
+    background: linear-gradient(90deg, #57176c 1.14%, #8713ad 100%);
+}
+
+a {
+    display: inline-block;
+    border-radius: 10px;
+    background: rgba(215, 216, 195, 0.5);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* SMALL SCREEN ONLY */
+
+@media screen and (max-width: 750px)
+{
+main {
+    flex-direction: column;
+}
+
+button {
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+.dwight {
+    width: 100%;
+}
+
+.canapCita {
+    font-size: 16px;
+    width: 100%;
+}
+}
