@@ -22,6 +22,14 @@ const citations =
     "Y'a que du vald dans cette playlist",
     "Pour moi helmut sait que faire des blagues avec 69, cul",
     "Les noirs ils sont meilleurs au basket parce qu'ils sont plus proches des singes",
+    "Frank qui se coupe la main, nous direct 'beun ferme la et fais un programme qui appelle le samu'",
+    "J'EN AI MARRE DE TOUT LE TEMPS CHUCHOTER QUAND J'ECRIS DANS CE GROUPE",
+    "J'ai une cadence de 1 à 2 cacas par jour en ce moment",
+    "On peut avoir une voix grave et être con comme une bite",
+    "Je veux une soirée à 5 où on se fait péter le chapiteau. - Tu veux qu'on s'encule ?",
+    "Les boobs c'est comme le soleil. C'est ok de regarder, c'est dangereux de mater, mais c'est pour ca qu'il y a les lunettes de soleil",
+    "Frank doit faire une roulade en entrant sinon je le dégage de chez moi",
+    "Je vois un arabe je panique",
 ];
 
 export default citations;
