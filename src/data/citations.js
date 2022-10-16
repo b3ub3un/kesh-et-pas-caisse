@@ -30,6 +30,10 @@ const citations =
     "Les boobs c'est comme le soleil. C'est ok de regarder, c'est dangereux de mater, mais c'est pour ca qu'il y a les lunettes de soleil",
     "Frank doit faire une roulade en entrant sinon je le dégage de chez moi",
     "Je vois un arabe je panique",
+    "Plus je te leffe, plus je me lèche les fesses. Plus t'es vide, plus je me pète le bide",
+    "J'voudrais le refrain de gotaga en vidéo avec beun qui gueule rotafish",
+    "Quand quelque chose te dit bienvenue, vas-y",
+    "Le bar il passe mieux avec une 50",
 ];
 
 export default citations;
