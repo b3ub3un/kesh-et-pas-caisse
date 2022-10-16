@@ -7,6 +7,14 @@ Beun "trois chiffres"
 
 ### Run
 
+Install all dependencies by running
+
+```sh
+npm i # in the root of the project
+```
+
+And then run (in the root)
+
 ```sh
 # to run local website:
 npm start
