@@ -34,6 +34,7 @@ const citations =
     "J'voudrais le refrain de gotaga en vidéo avec beun qui gueule rotafish",
     "Quand quelque chose te dit bienvenue, vas-y",
     "Le bar il passe mieux avec une 50",
+    "Quand tu lui proposes un contrat de 40h il refuse. Il t'en prend deux pour le prix d'un",
 ];
 
 export default citations;

@@ -1,7 +1,7 @@
 const canap =
 [
     "Sur luf et beun",
-    "Dans l'entrée",
+    "Dans l'entrée chez Frank",
     "Sur le lapin",
     "Sur le rond point",
     "Dans les wc de chez helmut",
